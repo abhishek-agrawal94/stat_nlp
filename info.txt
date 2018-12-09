@@ -1,0 +1,4 @@
+commands for preparing data for second part:
+tail -n 20000 TEXTEN1.txt > TESTEN.txt
+tail -n 60000 TEXTEN1.txt | head -n 40000 > HOLDOUTEN.txt
+head -n -60000 TEXTEN1.txt > TRAINEN.txt
